@@ -8,7 +8,7 @@ makeCacheMatrix <- function(x = matrix()) {
     ## made to the chached matrix
     set <- function(y) {
         x <<- y
-        ## change the value of inverse of the matrix incase the matrix is     changed.
+        ## change the value of inverse of the matrix incase the matrix is changed.
         m <<- NULL
     }
     ## get returns the value of the matrix passed
